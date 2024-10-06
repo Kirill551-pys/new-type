@@ -1,16 +1,11 @@
 class Movie {
-    year: number
-    country: string
-    slogan: string
-    genre: string
-    time: number
-
-constructor (year: number, country: string, slogan: string, genre: string, time: number) {
-    this.year = year;
-    this.country = country;
-    this.slogan = slogan;
-    this.time = time;
-    this.genre = genre;
+constructor (
+  public year: number, 
+  public country: string, 
+  public slogan: string, 
+  public genre: string, 
+  public time: number
+) {
   }
 
   public getYear(): number {
